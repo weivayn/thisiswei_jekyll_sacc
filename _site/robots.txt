@@ -1,1 +1,1 @@
-Sitemap: http://weivayn.github.io/jekyll-now/sitemap.xml
+Sitemap: http://localhost:4000/thisiswei/sitemap.xml
