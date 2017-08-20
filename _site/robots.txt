@@ -1,0 +1,1 @@
+Sitemap: http://weivayn.github.io/jekyll-now/sitemap.xml
