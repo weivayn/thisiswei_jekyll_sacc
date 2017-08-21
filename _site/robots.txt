@@ -1,1 +1,1 @@
-Sitemap: http://weivayn.github.io/thisiswei_jekyll_sacc/sitemap.xml
+Sitemap: http://weivayn.github.io/thisiswei/sitemap.xml
