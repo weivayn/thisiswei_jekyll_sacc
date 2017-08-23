@@ -1,7 +1,15 @@
 ---
 layout: post-map
 title: 2017 Partial Solar Eclipse NYC
-tags: lunch, solar eclipse, salad, cupcake, banana pudding, pies, pumpkin
+tags:
+- lunch
+- eclipse
+- salad
+- cupcake
+- banana pudding
+- pies
+- Pumpkin
+- desserts
 ---
 
 It has been years since the last time that I saw a partial solar eclipse in China. I remembered to look out the window of a 6-floor apartment building in an open area was pretty awesome. Plus, there had no clouds on that day, which was very rare in my hometown. The entire process didn't last that long but enough for me to enjoy.
