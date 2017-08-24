@@ -167,6 +167,7 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
+  padding-top: 10px;
 
   @include mobile {
     float: none;
@@ -246,7 +247,7 @@ nav {
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 3em;
   border-bottom: none;
 }
 
@@ -270,7 +271,17 @@ nav {
   }
   img{
     width: 591px;
-    height: 443px;
+    //height: 443px;
+    height: auto;
+  }
+  .entryimg{
+    float: left;
+    padding-right: 20px;
+  }
+  .entryimg > img{
+    width: 133px;
+    //height: 100px;
+    height: auto;
   }
 }
 

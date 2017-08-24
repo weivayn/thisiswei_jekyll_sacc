@@ -1,6 +1,7 @@
 ---
-layout: post-map
+layout: post
 title: 2017 Partial Solar Eclipse NYC
+display-img: http://tinyurl.com/y9rhtctk
 tags:
 - lunch
 - eclipse
