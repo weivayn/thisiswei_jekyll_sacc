@@ -37,12 +37,7 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-    <div class="tags">
-      {% for tag in tags %}
-  	     <a href="#{{ tag | slugify }}"> {{ tag }} </a>
-      {% endfor %}
-    </div>
+    
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
