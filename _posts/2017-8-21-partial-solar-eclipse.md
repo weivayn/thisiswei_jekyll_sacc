@@ -2,15 +2,7 @@
 layout: post
 title: 2017 Partial Solar Eclipse NYC
 display-img: http://tinyurl.com/y9rhtctk
-tags:
-- lunch
-- eclipse
-- salad
-- cupcake
-- banana pudding
-- pies
-- Pumpkin
-- desserts
+tags: [lunch, eclipse, salad, cupcakes, banana pudding, pies, Pumpkin, desserts]
 ---
 
 It has been years since the last time that I saw a partial solar eclipse in China. I remembered to look out the window of a 6-floor apartment building in an open area was pretty awesome. Plus, there had no clouds on that day, which was very rare in my hometown. The entire process didn't last that long but enough for me to enjoy.
