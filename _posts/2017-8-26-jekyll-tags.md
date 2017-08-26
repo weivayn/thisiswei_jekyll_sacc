@@ -17,6 +17,5 @@ There was an additional step that I took to make tags to be fully functional, wh
         </li>
         {% endfor %}
       </ul>
-    ```
 
 Now, it's time to style them!
