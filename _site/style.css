@@ -68,6 +68,7 @@ body {
   background: #fff;
   font: 14px/1.4 Helvetica, Arial, sans-serif;
   color: #666;
+  padding-bottom: 66px;
 }
 
 .container {
@@ -321,7 +322,6 @@ nav a {
 
 .wrapper-footer {
   position: fixed;
-  position: static;
   bottom: 0px;
   width: 100%;
   margin-top: 10px;
