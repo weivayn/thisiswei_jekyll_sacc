@@ -292,21 +292,22 @@ nav {
   width: 100%;
   margin-top: 10px;
   border-top: 3px solid $silverpurple;
-  border-bottom: 1px solid $silverpurple;
+  //border-bottom: 1px solid $silverpurple;
   background-color: $white;
 }
 
 #disclaimer{
   font-size: 70%;
-  padding: 0 10px;
+  padding: 20px 10px;
   position: fixed;
   position: static;
   bottom: 0px;
 }
 
 footer {
-  padding: 10px 10px 0 10px;
+  padding: 5px 10px 0 10px;
   text-align: right;
+  float: right;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
