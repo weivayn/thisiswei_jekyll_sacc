@@ -5,20 +5,24 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
+<!--  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>-->
+
+<div class="meta_wrapper">
+  <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%B %e, %Y"}}</time>
+  <ul class="tag_list_in_post">
+    {% for tag in page.tags %}
+    <li class="inline tag_list_item">
+      <a class="tag_list_link" href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
   <div class="entry">
     {{ content }}
   </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  <span>[
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-  {% endfor %}
-]</span>
 
   {% include disqus.html %}
 </article>
