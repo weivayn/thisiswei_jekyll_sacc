@@ -190,6 +190,11 @@ img {
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
+.fofbg {
+  background-image: url("images/404.png");
+  height: 814px;
+}
+
 .wrapper-masthead {
   margin-bottom: 10px;
   border-bottom: 1px solid #dbe9d8;
