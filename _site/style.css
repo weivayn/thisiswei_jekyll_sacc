@@ -191,8 +191,11 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 .fofbg {
-  background-image: url("images/404.png");
-  height: 814px;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  z-index: -100;
 }
 
 .wrapper-masthead {

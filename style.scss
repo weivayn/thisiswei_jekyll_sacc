@@ -150,8 +150,12 @@ img {
 //404
 //
 .fofbg {
-  background-image: url("images/404-1.png");
-  height: 814px;
+  //background-image: url("images/404-1.png");
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  z-index: -100;
 }
 
 
