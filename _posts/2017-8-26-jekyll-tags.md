@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Jekyll Tags
-tags:
-- Jekyll
-- Code
+tags: [Jekyll, Code]
 ---
 
 Thanks to [Charlie Park](https://github.com/charliepark/charliepark.github.com){:target="`_blank`"}'s tutorial on how to add [Tags In Jekyll](http://charliepark.org/tags-in-jekyll/){:target="`_blank`"}! I was able to add tags into my blog posts.

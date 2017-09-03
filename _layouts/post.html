@@ -11,13 +11,14 @@ layout: default
 
 <div class="meta_wrapper">
   <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%B %e, %Y"}}</time>
-  <ul class="tag_list_in_post">
+  <ul>
     {% for tag in page.tags %}
-    <li class="inline tag_list_item">
-      <a class="tag_list_link" href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
-    </li>
+      <li>
+        <a href="{{ site.baseurl }}/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a>
+      </li>
     {% endfor %}
   </ul>
+
 </div>
 
   <div class="entry">
